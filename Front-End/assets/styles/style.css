@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #3b3936;
+}
+
+header {
+    display: inline;
+    text-align: center;
+}
+
+header .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background-color: #3b3936;
+}
+
+header nav {
+	top: 0;
+    padding: 5px;
+	position: sticky;
+    background-color: #3b3936;
+}
+
+header nav li {
+    display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+header nav a {
+    font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+#clock{
+  color: white;
+  padding-right: 2cm;
+  text-align: right;
+  font-family: system-ui;
+  font-size: large;
+}
+
+main #content {
+    float: left;
+    width: 75%;
+}
+
+main aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+main aside section img {
+    padding: 10px;
+}
+
+main aside section img:hover {
+    opacity: 1;
+}
+
+footer {
+	padding: 10px;
+	color: white;
+	background-color:#3b3936;
+	text-align: center;
+}
+figcaption{
+  color: white;
+}
+
+h2 {
+    color: white;
+}
+h3{
+  color: white;
+}
+p{
+  color: white;
+}
+
+.rounded {
+    border-radius: 80%;
+}
+.clock{
+  color: white;
+}
+
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #a39f99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.featured-image {
+	width:95%;
+	max-height: 650px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profile header {
+	text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    main #content,
+    main aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
