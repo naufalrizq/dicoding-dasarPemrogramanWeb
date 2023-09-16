@@ -68,12 +68,14 @@ main aside {
 }
 
 main aside section img {
-    padding: 10px;
+    width: auto;
+    padding: 0px;
+    padding-right: 9px;
 }
 
-main aside section img:hover {
+/* main aside section img:hover {
     opacity: 1;
-}
+} */
 
 footer {
 	padding: 10px;
@@ -96,6 +98,7 @@ p{
 }
 
 .rounded {
+    width: 100%;
     border-radius: 80%;
 }
 .clock{
@@ -111,11 +114,15 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 .featured-image {
-	width:95%;
-	max-height: 650px;
+	width:45%;
+	max-height: 500px;
 	object-fit: cover;
-	object-position: center;
+    border-radius: 20px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .profile header {
